@@ -28,7 +28,9 @@ Sophocles API
 * **Success Response:**
 
   * **Code:** 200 <br />
-    **Sample Content:** { id : 26866,<br />
+    **Sample Content:**
+  ```json
+      { id : 26866,<br />
       name : "Wono",<br />
       description: "An ICO with a real name but otherwise sample data",<br />
       amountRaised: 10521000.00,<br />
@@ -173,6 +175,7 @@ Sophocles API
           trendingClicks: 300<br />
       }<br />
     }
+   ```
  
 * **Error Response:**
 
