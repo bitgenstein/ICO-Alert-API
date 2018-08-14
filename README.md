@@ -30,7 +30,7 @@ Sophocles API
   * **Code:** 200 <br />
     **Sample Content:** 
     ```json
-{
+    {
     "id": 26866,
     "name": "Wono",
     "description": "An ICO with a real name but otherwise sample data",
@@ -176,7 +176,7 @@ Sophocles API
         "featuredClicks": 151,
         "trendingClicks": 300
     }
-}
+    }
  ```
  
 * **Error Response:**
