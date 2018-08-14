@@ -28,33 +28,6 @@ Sophocles API
 * **Success Response:**
 
   * **Code:** 200 <br />
-    **Sample Content:**
-  ```json
-**Show ICO**
-----
-  Returns json data about a single ICO.
-
-* **URL**
-
-  /icos/:id
-
-* **Method:**
-
-  `GET`
-  
-*  **URL Params**
-
-   **Required:**
- 
-   `id=[integer]`
-
-* **Data Params**
-
-  None
-
-* **Success Response:**
-
-  * **Code:** 200 <br />
     **Sample Content:** 
     ```json
     { id : 26866,
@@ -203,29 +176,6 @@ Sophocles API
       }
     }`
  ```
-* **Error Response:**
-
-  * **Code:** 404 NOT FOUND <br />
-    **Content:** `{ error : "ICO doesn't exist" }`
-
-  OR
-
-  * **Code:** 401 UNAUTHORIZED <br />
-    **Content:** `{ error : "You are unauthorized to make this request." }`
-
-* **Sample Call:**
-
-  ```javascript
-    $.ajax({
-      url: "/icos/26866",
-      dataType: "json",
-      type : "GET",
-      success : function(r) {
-        console.log(r);
-      }
-    });
-  ```
-   ```
  
 * **Error Response:**
 
