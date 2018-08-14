@@ -176,9 +176,8 @@ Sophocles API
         "featuredClicks": 151,
         "trendingClicks": 300
     }
-    }
- ```
- 
+    }```
+
 * **Error Response:**
 
   * **Code:** 404 NOT FOUND <br />
