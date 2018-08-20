@@ -52,6 +52,37 @@ Sophocles API
         "smartContractAddress": "0xAB21FF3CAD411D2FF4510089A3EE211EEE",
         "annualInflationRate": 0
     },
+    "distribution": [
+        {
+            "comment": "cliff and lockup are in months",
+            "cliff": 2,
+            "lockup": 6,
+            "percentageOfTokens": 50
+        },
+        {
+            "comment": "cliff and lockup are in months",
+            "cliff": 12,
+            "lockup": 24,
+            "percentageOfTokens": 50
+        }
+    ],
+    "allocation": [
+        {
+            "id": 1,
+            "allocationType": "Advisors",
+            "percentage": 20.5
+        },
+        {
+            "id": 2,
+            "allocationType": "Marketing",
+            "percentage": 15.5
+        },
+        {
+            "id": 3,
+            "allocationType": "Development",
+            "percentage": 64
+        }
+    ],
     "team": [
         {
             "id": 12102,
