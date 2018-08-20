@@ -207,7 +207,7 @@ Sophocles API
         "featuredClicks": 151,
         "trendingClicks": 300
     }
-    }```
+    }
 
 * **Error Response:**
 
