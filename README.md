@@ -53,12 +53,14 @@ Sophocles API
     },
     "distribution": [
         {
+            "name": "Crowdsale",
             "comment": "cliff and lockup are in months",
-            "cliff": 2,
-            "lockup": 6,
+            "cliff": 0,
+            "lockup": 0,
             "percentageOfTokens": 50
         },
         {
+            "name": "Team",
             "comment": "cliff and lockup are in months",
             "cliff": 12,
             "lockup": 24,
