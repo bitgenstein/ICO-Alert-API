@@ -49,8 +49,7 @@ Sophocles API
         "name": "Wonobytes",
         "tokenSymbol": "WON",
         "maximumSupply": 10000000000000000,
-        "smartContractAddress": "0xAB21FF3CAD411D2FF4510089A3EE211EEE",
-        "annualInflationRate": 0
+        "smartContractAddress": "0xAB21FF3CAD411D2FF4510089A3EE211EEE"
     },
     "distribution": [
         {
