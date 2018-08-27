@@ -47,6 +47,7 @@ Sophocles API
     "whitelistRegistrationLink": "https://wono.io#whitelist",
     "emailContact": "johnflaggerty@wono.io",
     "emailContactName": "John Flaggerty",
+    "businessWebsite": "https://wonollc.io"
     "token": {
         "name": "Wonobytes",
         "tokenSymbol": "WON",
