@@ -45,6 +45,8 @@ Sophocles API
     "websiteRegistrationDate": "2018/01/20",
     "whitelistRegistrationDeadline": "2018/08/20",
     "whitelistRegistrationLink": "https://wono.io#whitelist",
+    "emailContact": "johnflaggerty@wono.io",
+    "emailContactName": "John Flaggerty",
     "token": {
         "name": "Wonobytes",
         "tokenSymbol": "WON",
@@ -79,22 +81,6 @@ Sophocles API
         {
             "allocationType": "Development",
             "percentage": 64
-        }
-    ],
-    "team": [
-        {
-            "id": 12102,
-            "firstName": "John",
-            "lastName": "Benedict",
-            "email": "jbenedict@wono.io",
-            "linkedin": "https://linkedin.com/in/jbennydict"
-        },
-        {
-            "id": 12103,
-            "firstName": "Gopesh",
-            "lastName": "Antonopoulos",
-            "email": "indiaofmoney@gmail.com",
-            "linkedin": ""
         }
     ],
     "kycRequirements": {
