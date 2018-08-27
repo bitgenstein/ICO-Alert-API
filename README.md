@@ -69,17 +69,14 @@ Sophocles API
     ],
     "allocation": [
         {
-            "id": 1,
             "allocationType": "Advisors",
             "percentage": 20.5
         },
         {
-            "id": 2,
             "allocationType": "Marketing",
             "percentage": 15.5
         },
         {
-            "id": 3,
             "allocationType": "Development",
             "percentage": 64
         }
