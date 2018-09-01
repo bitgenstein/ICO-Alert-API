@@ -47,7 +47,9 @@ Sophocles API
     "whitelistRegistrationLink": "https://wono.io#whitelist",
     "emailContact": "johnflaggerty@wono.io",
     "emailContactName": "John Flaggerty",
-    "businessWebsite": "https://wonollc.io"
+    "businessWebsite": "https://wonollc.io",
+    "headquarters": "China",
+    "incorporation": "Hong Kong",
     "token": {
         "name": "Wonobytes",
         "tokenSymbol": "WON",
@@ -92,31 +94,6 @@ Sophocles API
         "name": 1,
         "phoneNumber": 0
     },
-    "icoParentCompany": {
-        "name": "Wono Holdings Ltd",
-        "headquarters": "China",
-        "incorporation": "Hong Kong",
-        "stockTicker": "WHH",
-        "website": ""
-    },
-    "icoPartnershipCompanies": [
-        {
-            "id": 12122,
-            "name": "Wono Phantom Company",
-            "headquarters": "China",
-            "incorporation": "Hong Kong",
-            "stockTicker": "WPC",
-            "website": ""
-        },
-        {
-            "id": 12123,
-            "name": "Wono Ghost Company",
-            "headquarters": "China",
-            "incorporation": "Hong Kong",
-            "stockTicker": "WGC",
-            "website": ""
-        }
-    ],
     "icoPaymentToken": [
         {
             "name": "Ethereum",
