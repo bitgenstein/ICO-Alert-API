@@ -161,13 +161,6 @@ Sophocles API
         "wechat": "",
         "whitePaper": "https://wono.io/whitepaper",
         "youtube": "https://youtube.com/wono"
-    },
-    "icoStats": {
-        "myPortfolioAdds": 29,
-        "myPortfolioRanking": 52,
-        "freeClicks": 9,
-        "featuredClicks": 151,
-        "trendingClicks": 300
     }
     }
 
