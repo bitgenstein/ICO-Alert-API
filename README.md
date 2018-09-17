@@ -9,7 +9,7 @@ ICO Alert API
 
 * **URL**
 
-  https://sophocles.icoalert.com/api.php?[URL Params]
+  https://sophocles.icoalert.com/api.php? [URL Params]
   
 *  **URL Params**
 
