@@ -63,7 +63,7 @@ ICO Alert API
   * **Getting all disabled ICOs that ran in 2017:**
   `https://sophocles.icoalert.com/api.php?KEY=MYKEY&INCLUDEENABLED=no&INCLUDEDISABLED=yes&FILTER=date&STARTDATE=2017-01-01&ENDDATE=2017-12-31`
 
-  * **Getting page 2 of the results above (limit is 50 per page):**
+  * **Getting page 2 of the results above (default limit is 50 per page, unless your key has a higher maximum):**
   `https://sophocles.icoalert.com/api.php?KEY=MYKEY&INCLUDEENABLED=no&INCLUDEDISABLED=yes&FILTER=date&STARTDATE=2017-01-01&ENDDATE=2017-12-31&PAGE=2`
 
 * **Sample Response Content (abridged to one ICO. Data for sample purposes only):** 
