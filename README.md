@@ -15,33 +15,33 @@ ICO Alert API
 
    **Required:**
  
-   `KEY=[string]`
+   * **`KEY=[string]`**
    
-   Obtain your API key by requesting one from team@icoalert.com
+      Obtain your API key by requesting one from team@icoalert.com
 
    **Optional:**
    
-   `FILTER=date`
+   * **`FILTER=date`*
    
-   Enables date filter
+      Enables date filter
    
-   `STARTDATE=[date]`
+   * **`STARTDATE=[date]`*
    
-   `ENDDATE=[date]`
+   * **`ENDDATE=[date]`*
    
-   Suggested format: YYYY-MM-DD
+      Suggested format: YYYY-MM-DD. Only for use with `FILTER=date`
    
-   `INCLUDEDISABLED=no`
+   * **`INCLUDEDISABLED=no`*
    
-   Hides disabled ICOs
+      Hides disabled ICOs
    
-   `INCLUDEDISABLED=no`
+   * **`INCLUDEDISABLED=no`*
    
-   Hides enabled ICOs
+      Hides enabled ICOs
    
-   `ICO=[int]`
+   * **`ICO=[int]`**
    
-   5-digit ICO id number calls data on a specific ICO.
+      5-digit ICO id number calls data on a specific single ICO.
 
 * **API Sample Calls**
   (parameter names such as KEY are case sensitive)
