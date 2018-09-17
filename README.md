@@ -1,11 +1,11 @@
-# ICO_Alert_API
+# ICO-Alert-API
 ICO Alert API
 
 ***Usage:***
 
-**Show ICO**
+**Show ICOs**
 ----
-  Returns json data about a single ICO.
+  Returns json data about a single ICO or all ICOs. Restrictable to enabled only, disabled only, and/or a specific date range if desired.
 
 * **URL**
 
