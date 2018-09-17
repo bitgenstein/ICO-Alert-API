@@ -37,7 +37,7 @@ Sophocles API
 
     **Sample Content:** 
     ```json
-    {
+    {"totalICOsFound":1,"totalPages":1,"icosPerPage":50,"currentPage":1,"results":[
     {
   "id": "58351",
   "name": "OrganTree",
@@ -208,4 +208,4 @@ Sophocles API
       "linkedIn": "https://www.linkedin.com/in/ron-gologorsky-a61228167/"
     }
   ]
-}
+}]}
