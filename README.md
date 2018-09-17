@@ -39,6 +39,14 @@ ICO Alert API
    
       Hides enabled ICOs
    
+   * **`PAGE=[int]`**
+   
+      Responses are generally limited to 50 per page, unless your key has special permissions. Use `PAGE=2`, `PAGE=3` etc. to access all of the results
+   
+   * **`ICOSPERPAGE=[int]`**
+   
+      The default ICOs per page limit is 50, unless your key has special permissions. Use this to manually limit the number of ICOs per page
+   
    * **`ICO=[int]`**
    
       5-digit ICO id number calls data on a specific single ICO. (This does not return more data points on the single ICO than is returned when calling multiple ICOs)
