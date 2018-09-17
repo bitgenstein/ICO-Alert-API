@@ -41,9 +41,22 @@ ICO Alert API
    
    5-digit ICO id number calls data on a specific ICO.
 
-* **Success Response:**
+* **API Sample Calls**
+  (parameter names such as KEY are case sensitive)
 
-    **Sample Content:** 
+  * **Getting information on one ICO:**
+  `https://sophocles.icoalert.com/api.php?KEY=MYKEY&ICO=26866`
+
+  * **Getting all enabled ICOs that started or were running in August 2018:**
+  `https://sophocles.icoalert.com/api.php?KEY=MYKEY&INCLUDEDISABLED=no&FILTER=date&STARTDATE=2018-08-01&ENDDATE=2018-08-31`
+
+  * **Getting all disabled ICOs that ran in 2017:**
+  `https://sophocles.icoalert.com/api.php?KEY=MYKEY&INCLUDEENABLED=no&INCLUDEDISABLED=yes&FILTER=date&STARTDATE=2018-01-01&ENDDATE=2018-12-31`
+
+  * **Getting page 2 of the results above (limit is 50 per page):**
+  `https://sophocles.icoalert.com/api.php?KEY=MYKEY&INCLUDEENABLED=no&INCLUDEDISABLED=yes&FILTER=date&STARTDATE=2018-01-01&ENDDATE=2018-12-31&PAGE=2`
+
+* **Sample Response Content (abridged to one ICO):** 
     ```json
     {
       "totalICOsFound": 1,
