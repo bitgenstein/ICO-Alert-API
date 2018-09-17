@@ -20,17 +20,25 @@ ICO Alert API
    **Optional:**
    
    `FILTER=date`
+   
    Enables date filter
+   
    `STARTDATE=[date]`
+   
    `ENDDATE=[date]`
+   
    Suggested format: YYYY-MM-DD
    
    `INCLUDEDISABLED=no`
+   
    Hides disabled ICOs
+   
    `INCLUDEDISABLED=no`
+   
    Hides enabled ICOs
    
    `ICO=[int]`
+   
    5-digit ICO id number calls data on a specific ICO.
 
 * **Success Response:**
