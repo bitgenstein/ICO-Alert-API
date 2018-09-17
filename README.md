@@ -141,9 +141,14 @@ Sophocles API
               "paymentTokenName": "Bitcoin"
             }
           ],
-          "icoIndustries": {
-            "industries": "Engineering,Cryptocurrency,Supply Chain"
-          },
+          "industries": [
+            {
+              "industryName": "Cryptocurrency"
+            },
+            {
+              "industryName": "Insurance"
+            }
+          ],
           "links": {
             "askFm": "",
             "bitcoinTalk": "",
