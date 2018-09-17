@@ -56,7 +56,7 @@ ICO Alert API
   * **Getting page 2 of the results above (limit is 50 per page):**
   `https://sophocles.icoalert.com/api.php?KEY=MYKEY&INCLUDEENABLED=no&INCLUDEDISABLED=yes&FILTER=date&STARTDATE=2018-01-01&ENDDATE=2018-12-31&PAGE=2`
 
-* **Sample Response Content (abridged to one ICO):** 
+* **Sample Response Content (abridged to one ICO. Data for sample purposes only):** 
     ```json
     {
       "totalICOsFound": 1,
