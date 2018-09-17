@@ -89,14 +89,20 @@ ICO Alert API
               "tokenPreMinedAmount": "0.00000000",
               "tokenMaximumSupply": "2500000000.00000000",
               "tokenSmartContractAddress": "0x5df451ed892a40030078b887d0a4febde4c8f0a9",
+              "tokenPriceUSD": "",
+              "tokenPriceEUR": "",
+              "tokenPriceBTC": "",
               "tokenPriceETH": "0.00003125"
             }
           ],
           "airdrops": [
             {
+              "airdropAnnouncementLink": "",
+              "airdropDate": "",
               "registrationLink": "https://docs.google.com/forms/d/e/1FAIpQLSec09suuIPKTTYsaPV-XB9qKBvJ0XV0BX7dyHZLT3JKy1MsDA/viewform",
               "airdropTokenSymbol": "ETH",
               "airdropPreMinedAmount": "0.00000000",
+              "airdropSmartContract": "",
               "airdropMaximumSupply": "0.00000000"
             }
           ],
