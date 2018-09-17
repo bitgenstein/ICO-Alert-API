@@ -1,5 +1,5 @@
 # sophocles_api
-Sophocles API
+ICO Alert API
 
 ***Usage:***
 
