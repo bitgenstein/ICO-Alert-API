@@ -9,7 +9,7 @@ Sophocles API
 
 * **URL**
 
-  /sophocles.icoalert.com/api.php?KEY=<yourkey>
+  /sophocles.icoalert.com/api.php?[URL Params]
   
 *  **URL Params**
 
