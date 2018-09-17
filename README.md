@@ -21,21 +21,21 @@ ICO Alert API
 
    **Optional:**
    
-   * **`FILTER=date`*
+   * **`FILTER=date`**
    
       Enables date filter
    
-   * **`STARTDATE=[date]`*
+   * **`STARTDATE=[date]`**
    
-   * **`ENDDATE=[date]`*
+   * **`ENDDATE=[date]`**
    
       Suggested format: YYYY-MM-DD. Only for use with `FILTER=date`
    
-   * **`INCLUDEDISABLED=no`*
+   * **`INCLUDEDISABLED=no`**
    
       Hides disabled ICOs
    
-   * **`INCLUDEDISABLED=no`*
+   * **`INCLUDEDISABLED=no`**
    
       Hides enabled ICOs
    
