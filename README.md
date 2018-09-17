@@ -9,180 +9,203 @@ Sophocles API
 
 * **URL**
 
-  /icos/:id
-
-* **Method:**
-
-  `GET`
+  /sophocles.icoalert.com/api.php?KEY=<yourkey>
   
 *  **URL Params**
 
    **Required:**
  
-   `id=[integer]`
+   `KEY=[string]`
 
-* **Data Params**
-
-  None
+   **Optional:**
+   
+   `FILTER=date`
+   Enables date filter
+   `STARTDATE=[date]`
+   `ENDDATE=[date]`
+   Suggested format: YYYY-MM-DD
+   
+   `INCLUDEDISABLED=no`
+   Hides disabled ICOs
+   `INCLUDEDISABLED=no`
+   Hides enabled ICOs
+   
+   `ICO=[int]`
+   5-digit ICO id number calls data on a specific ICO.
 
 * **Success Response:**
 
-  * **Code:** 200 <br />
     **Sample Content:** 
     ```json
     {
-    "id": 26866,
-    "name": "Wono",
-    "description": "An ICO with a real name but otherwise sample data",
-    "amountRaised": 10521000,
-    "kycRequired": 1,
-    "openSourceProject": 1,
-    "platform": "Ethereum",
-    "reportLink": "https://blog.icoalert.com/wonoReport.php",
-    "softCapReached": 1,
-    "usaAccreditedInvestorsAllowed": 1,
-    "website": "https://wono.io",
-    "websiteRegistrationDate": "2018/01/20",
-    "whitelistRegistrationDeadline": "2018/08/20",
-    "whitelistRegistrationLink": "https://wono.io#whitelist",
-    "emailContact": "johnflaggerty@wono.io",
-    "emailContactName": "John Flaggerty",
-    "businessWebsite": "https://wonollc.io",
-    "headquarters": "China",
-    "incorporation": "Hong Kong",
-    "token": {
-        "name": "Wonobytes",
-        "tokenSymbol": "WON",
-        "maximumSupply": 10000000000000000,
-        "smartContractAddress": "0xAB21FF3CAD411D2FF4510089A3EE211EEE"
-    },
-    "distribution": [
-        {
-            "name": "Crowdsale",
-            "comment": "cliff and lockup are in months",
-            "cliff": 0,
-            "lockup": 0,
-            "percentageOfTokens": 50
-        },
-        {
-            "name": "Team",
-            "comment": "cliff and lockup are in months",
-            "cliff": 12,
-            "lockup": 24,
-            "percentageOfTokens": 50
-        }
-    ],
-    "allocation": [
-        {
-            "allocationType": "Advisors",
-            "percentage": 20.5
-        },
-        {
-            "allocationType": "Marketing",
-            "percentage": 15.5
-        },
-        {
-            "allocationType": "Development",
-            "percentage": 64
-        }
-    ],
-    "kycRequirements": {
-        "address": 1,
-        "citizenship": 1,
-        "email": 1,
-        "governmentIssuedId": 0,
-        "name": 1,
-        "phoneNumber": 0
-    },
-    "icoPaymentToken": [
-        {
-            "name": "Ethereum",
-            "tokenSymbol": "ETH"
-        },
-        {
-            "name": "Doge Dark",
-            "tokenSymbol": "DOGEDARK"
-        }
-    ],
-    "icoIndustries": {
-        "industries": "Engineering,Cryptocurrency,Supply Chain"
-    },
-    "icoProhibitedCountries": {
-        "prohibitedCountries": "USA,Kafiristan,Kyrat,Ku"
-    },
-    "icoRounds": [
-        {
-            "type": "private",
-            "timeframe": "exactDates",
-            "startDate": "2018/09/30",
-            "endDate": "2018/10/15",
-            "smartContractAddress": "0xC0479AC700A669E55004E9E"
-        },
-        {
-            "type": "presale",
-            "timeframe": "month",
-            "month": 11,
-            "year": 2018
-        },
-        {
-            "type": "presale",
-            "timeframe": "quarter",
-            "quarter": 1,
-            "year": 2018
-        },
-        {
-            "type": "sale",
-            "timeframe": "tbd"
-        }
-    ],
-    "icoLinks": {
-        "askFm": "",
-        "bitcoinTalk": "https://bitcointalk.org/wono",
-        "blog": "https://blog.wono.io",
-        "bounty0x": "",
-        "bountyProgram": "",
-        "discord": "https://disco.rd/wono",
-        "everpedia": "",
-        "facebook": "https://facebook.com/wono",
-        "github": "",
-        "googlePlus": "",
-        "instagram": "",
-        "linkedIn": "https://linkedin.com/in/wono",
-        "medium": "https://medium.com/wono",
-        "mvp": "",
-        "promoVideo": "https://youtu.be/w08n-z1r",
-        "reddit": "",
-        "rss": "",
-        "slack": "",
-        "steemit": "",
-        "telegram": "https://t.me/getwono",
-        "twitter": "https://twitter.com/wono",
-        "vk": "",
-        "wechat": "",
-        "whitePaper": "https://wono.io/whitepaper",
-        "youtube": "https://youtube.com/wono"
+    {
+  "id": "58351",
+  "name": "OrganTree",
+  "description": "Blockchain helping to solve the inefficiencies in organ matching.",
+  "enabled": "true",
+  "amountRaised": "0.00000000", //for concluded ICOs, 0 indicates "no data"
+  "kycRequired": "false",
+  "openSourceProject": "false",
+  "platform": "Ethereum",
+  "reportLink": "",
+  "softCapReached": "false",
+  "usaAccreditedInvestorsAllowed": "false",
+  "website": "http://ico.organ-tree.com",
+  "emailContact": "admin@organ-tree.com",
+  "emailContactName": "Ron Gologorsky",
+  "businessWebsite": "http://ico.organ-tree.com",
+  "incorporationLocation": "Ireland",
+  "headquartersLocation": "Ireland",
+  "token": [
+    {
+      "tokenName": "OrganTree",
+      "tokenSymbol": "OGT",
+      "tokenPreMinedAmount": "0.00000000",
+      "tokenMaximumSupply": "2500000000.00000000",
+      "tokenSmartContractAddress": "0x5df451ed892a40030078b887d0a4febde4c8f0a9",
+      "tokenPriceETH": "0.00003125"
     }
+  ],
+  "airdrops": [
+    {
+      "registrationLink": "https://docs.google.com/forms/d/e/1FAIpQLSec09suuIPKTTYsaPV-XB9qKBvJ0XV0BX7dyHZLT3JKy1MsDA/viewform",
+      "airdropTokenSymbol": "ETH",
+      "airdropPreMinedAmount": "0.00000000",
+      "airdropMaximumSupply": "0.00000000"
     }
-
-* **Error Response:**
-
-  * **Code:** 404 NOT FOUND <br />
-    **Content:** `{ error : "ICO doesn't exist" }`
-
-  OR
-
-  * **Code:** 401 UNAUTHORIZED <br />
-    **Content:** `{ error : "You are unauthorized to make this request." }`
-
-* **Sample Call:**
-
-  ```javascript
-    $.ajax({
-      url: "/icos/26866",
-      dataType: "json",
-      type : "GET",
-      success : function(r) {
-        console.log(r);
-      }
-    });
-  ```
+  ],
+  "distribution": [
+    {
+      "distributionName": "Crowdsale",
+      "distributionCliff": "0",
+      "distributionPercentageOfTokens": "0.50"
+    },
+    {
+      "distributionName": "Operations",
+      "distributionCliff": "0",
+      "distributionPercentageOfTokens": "0.20"
+    },
+    {
+      "distributionName": "Foundation",
+      "distributionCliff": "0",
+      "distributionPercentageOfTokens": "0.10"
+    },
+    {
+      "distributionName": "Bounty",
+      "distributionCliff": "0",
+      "distributionPercentageOfTokens": "0.03"
+    },
+    {
+      "distributionName": "Advisors",
+      "distributionCliff": "0",
+      "distributionPercentageOfTokens": "0.02"
+    }
+  ],
+  "allocation": [
+    {
+        "allocationType": "Advisors",
+        "percentage": 20.5
+    },
+    {
+        "allocationType": "Marketing",
+        "percentage": 15.5
+    },
+    {
+        "allocationType": "Development",
+        "percentage": 64
+    }
+  ],
+  "KYCRequirements": [
+    {
+      "addressRequired": "false",
+      "citizenshipRequired": "true",
+      "emailRequired": "true",
+      "governmentIssuedIdRequired": "false",
+      "nameRequired": "false",
+      "phoneNumberRequired": "true"
+    }
+  ],
+  "paymentTokens": [
+    {
+      "paymentTokenName": "U.S. Dollar"
+    },
+    {
+      "paymentTokenName": "Ethereum"
+    },
+    {
+      "paymentTokenName": "Bitcoin"
+    }
+  ],
+  "icoIndustries": {
+      "industries": "Engineering,Cryptocurrency,Supply Chain"
+  },
+  "links": {
+    "askFm": "",
+    "bitcoinTalk": "",
+    "blog": "",
+    "bountyProgram": "\t0x5df451ed892a40030078b887d0a4febde4c8f0a9",
+    "everpedia": "",
+    "facebook": "https://www.facebook.com/organtree/",
+    "github": "https://github.com/Organ-Tree",
+    "googlePlus": "",
+    "instagram": "",
+    "linkedIn": "",
+    "medium": "https://medium.com/@ogtsocial/organ-tree-organ-donation-ecosystem-powered-by-blockchain-506c80934cb9",
+    "mvp": "organ-tree.com",
+    "promoVideo": "",
+    "reddit": "https://www.reddit.com/user/ORGANTREEICO/comments/8z2j1u/organ_tree/?utm_source=amp&utm_medium=top_post",
+    "rss": "",
+    "slack": "",
+    "steemit": "",
+    "telegram": "https://t.me/joinchat/JK1ozkeTeVwt7LkaemwdIw",
+    "twitter": "https://twitter.com/Organ_tree",
+    "vk": "",
+    "wechat": "",
+    "whitePaper": "https://ico.organ-tree.com/organ-tree-vision.pdf",
+    "youtube": ""
+  },
+  "prohibitedCountries": [
+    {
+      "prohibitedCountryName": "United States of America"
+    },
+    {
+      "prohibitedCountryName": "China"
+    },
+    {
+      "prohibitedCountryName": "Singapore"
+    }
+  ]
+  "rounds": [
+    {
+      "type": "private",
+      "timeframe": "exactDates",
+      "startDate": "2018/09/30",
+      "endDate": "2018/10/15",
+      "smartContractAddress": "0xC0479AC700A669E55004E9E"
+    },
+    {
+      "type": "presale",
+      "timeframe": "month",
+      "month": 11,
+      "year": 2018
+    },
+    {
+      "type": "presale",
+      "timeframe": "quarter",
+      "quarter": 1,
+      "year": 2018
+    },
+    {
+      "type": "sale",
+      "timeframe": "tbd"
+    }
+  ],
+  "teamMembers": [
+    {
+      "title": "CEO",
+      "firstName": "Ron",
+      "lastName": "Gologorsky",
+      "linkedIn": "https://www.linkedin.com/in/ron-gologorsky-a61228167/"
+    }
+  ]
+}
