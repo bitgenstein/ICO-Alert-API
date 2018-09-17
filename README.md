@@ -17,39 +17,39 @@ ICO Alert API
  
    * **`KEY=[string]`**
    
-      Obtain your API key by requesting one from team@icoalert.com
+      Obtain your API key by requesting one from team@icoalert.com.
 
    **Optional:**
    
    * **`FILTER=date`**
    
-      Enables date filter
+      Enables date filter on ICOs returned.
    
    * **`STARTDATE=[date]`**
    
    * **`ENDDATE=[date]`**
    
-      Suggested format: YYYY-MM-DD. Only for use with `FILTER=date`
+      Suggested format: YYYY-MM-DD. Only for use with `FILTER=date`.
    
    * **`INCLUDEDISABLED=no`**
    
-      Hides disabled ICOs
+      Hides disabled ICOs.
    
    * **`INCLUDEDISABLED=no`**
    
-      Hides enabled ICOs
+      Hides enabled ICOs.
    
    * **`PAGE=[int]`**
    
-      Responses are generally limited to 50 per page, unless your key has special permissions. Use `PAGE=2`, `PAGE=3` etc. to access all of the results
+      Responses are generally limited to 50 per page, unless your key has special permissions. Use `PAGE=2`, `PAGE=3` etc. to access all of the results.
    
    * **`ICOSPERPAGE=[int]`**
    
-      The default ICOs per page limit is 50, unless your key has special permissions. Use this to manually limit the number of ICOs per page
+      The default ICOs per page limit is 50, unless your key has special permissions. Use this to manually limit the number of ICOs per page to a number that is less than your key's maximum.
    
    * **`ICO=[int]`**
    
-      5-digit ICO id number calls data on a specific single ICO. (This does not return more data points on the single ICO than is returned when calling multiple ICOs)
+      5-digit ICO id number calls data on a specific single ICO. (This does not return more data points on the single ICO than is returned when calling multiple ICOs.)
 
 * **API Sample Calls**
   (parameter names such as KEY are case sensitive)
