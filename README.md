@@ -1,4 +1,4 @@
-# sophocles_api
+# ICO_Alert_API
 ICO Alert API
 
 ***Usage:***
