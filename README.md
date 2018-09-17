@@ -43,7 +43,7 @@ Sophocles API
   "name": "OrganTree",
   "description": "Blockchain helping to solve the inefficiencies in organ matching.",
   "enabled": "true",
-  "amountRaised": "0.00000000", //for concluded ICOs, 0 indicates "no data"
+  "amountRaised": "0.00000000 // for non-concluded ICOs, 0 indicates no data",
   "kycRequired": "false",
   "openSourceProject": "false",
   "platform": "Ethereum",
