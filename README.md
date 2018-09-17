@@ -16,6 +16,8 @@ ICO Alert API
    **Required:**
  
    `KEY=[string]`
+   
+   Obtain your API key by requesting one from team@icoalert.com
 
    **Optional:**
    
