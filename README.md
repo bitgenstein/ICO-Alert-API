@@ -35,7 +35,7 @@ ICO Alert API
    
       Hides disabled ICOs.
    
-   * **`INCLUDEDISABLED=no`**
+   * **`INCLUDEENABLED=no`**
    
       Hides enabled ICOs.
    
