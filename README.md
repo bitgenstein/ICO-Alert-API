@@ -49,7 +49,7 @@ ICO Alert API
    
    * **`ICO=[int]`**
    
-      5-digit ICO id number calls data on a specific single ICO. (This does not return more data points on the single ICO than is returned when calling multiple ICOs.)
+      A 5-digit ICO ID number calls data on a specific single ICO. (This does not return more data points on the single ICO than are returned for each when calling multiple ICOs.)
 
 * **API Sample Calls**
   (parameter names such as KEY are case sensitive)
