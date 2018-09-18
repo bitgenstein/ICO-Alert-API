@@ -13,6 +13,8 @@ ICO Alert API
   
 *  **URL Params**
 
+   (parameter names are all caps and case sensitive)
+
    **Required:**
  
    * **`KEY=[string]`**
@@ -52,7 +54,6 @@ ICO Alert API
       A 5-digit ICO ID number calls data on a specific single ICO. (This does not return more data points on the single ICO than are returned for each when calling multiple ICOs.)
 
 * **API Sample Calls**
-  (parameter names such as KEY are all caps and case sensitive)
 
   * **Getting information on one ICO:**
   `https://sophocles.icoalert.com/api.php?KEY=MYKEY&ICO=26866`
