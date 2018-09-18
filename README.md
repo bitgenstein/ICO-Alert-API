@@ -41,7 +41,7 @@ ICO Alert API
    
    * **`PAGE=[int]`**
    
-      Responses are generally limited to 50 per page, unless your key has special permissions. Use `PAGE=2`, `PAGE=3` etc. to access all of the results.
+      Responses are generally limited to 50 ICOs per page, unless your key has special permissions. Use `PAGE=2`, `PAGE=3` etc. to access all of the results.
    
    * **`ICOSPERPAGE=[int]`**
    
