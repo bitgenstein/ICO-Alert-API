@@ -13,7 +13,7 @@ ICO Alert API
   
 *  **URL Params**
 
-   (parameter names are all caps and case sensitive)
+   (parameter names not case sensitive)
 
    **Required:**
  
