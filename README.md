@@ -23,6 +23,10 @@ ICO Alert API
 
    **Optional:**
    
+   * **`DAILY=true`**
+
+      Returns only ICOs entered yesterday (00:00 to 24:00 EST). Useful for daily pulls of latest ICOs.
+   
    * **`FILTER=date`**
    
       Enables date filter on ICOs returned.
@@ -57,6 +61,9 @@ ICO Alert API
 
   * **Getting information on one ICO:**
   `https://sophocles.icoalert.com/api.php?KEY=MYKEY&ICO=26866`
+  
+  * **Getting information on ICOs added yesterday:**
+  `https://sophocles.icoalert.com/api.php?KEY=MYKEY&DAILY=true`
 
   * **Getting all enabled ICOs that started or were running in August 2018:**
   `https://sophocles.icoalert.com/api.php?KEY=MYKEY&INCLUDEDISABLED=no&FILTER=date&STARTDATE=2018-08-01&ENDDATE=2018-08-31`
@@ -71,6 +78,7 @@ ICO Alert API
     ```json
     {
       "totalICOsFound": 1,
+      "dateRange": "ICOs active during 2017-10-10 to 2018-09-10",
       "totalPages": 1,
       "icosPerPage": 50,
       "currentPage": 1,
