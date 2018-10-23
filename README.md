@@ -90,6 +90,7 @@ ICO Alert API
           "enabled": "true",
           "kycRequired": "false",
           "openSourceProject": "false",
+          "amountRaised": "1252110.00",
           "platform": "Ethereum",
           "reportLink": "",
           "usaAccreditedInvestorsAllowed": "false",
