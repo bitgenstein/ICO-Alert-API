@@ -23,9 +23,9 @@ ICO Alert API
 
    **Optional:**
    
-   * **`DAILY=true`**
+   * **`FEED=daily`**
 
-      Returns only ICOs entered yesterday (00:00 to 24:00 EST). Useful for daily pulls of latest ICOs.
+      Returns only ICOs entered yesterday (00:00 to 24:00 EST). Other valid options are "weekly" and "monthly" (last full calendar week and month, respectively).
    
    * **`FILTER=date`**
    
@@ -88,12 +88,10 @@ ICO Alert API
           "name": "OrganTree",
           "description": "Blockchain helping to solve the inefficiencies in organ matching.",
           "enabled": "true",
-          "amountRaised": "0.00000000 // for non-concluded ICOs, 0 indicates no data",
           "kycRequired": "false",
           "openSourceProject": "false",
           "platform": "Ethereum",
           "reportLink": "",
-          "softCapReached": "false",
           "usaAccreditedInvestorsAllowed": "false",
           "website": "http://ico.organ-tree.com",
           "emailContact": "admin@organ-tree.com",
