@@ -11,6 +11,10 @@ ICO Alert API
 
   https://sophocles.icoalert.com/api.php? [URL Params]
   
+* **SAMPLE DATASET**
+  
+  https://sophocles.icoalert.com/api.php?key=5409a03dccapic6edc7676d
+  
 *  **URL Params**
 
    (parameter names not case sensitive)
