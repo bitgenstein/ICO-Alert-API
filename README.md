@@ -30,6 +30,10 @@ ICO Alert API
    * **`FEED=daily`**
 
       Returns only ICOs entered yesterday (00:00 to 24:00 EST). Other valid options are "weekly" and "monthly" (last full calendar week and month, respectively).
+      
+   * **`onlySTOs=true`**
+   
+      Returns only ICOs whose tokens include one or more security tokens.
    
    * **`FILTER=date`**
    
