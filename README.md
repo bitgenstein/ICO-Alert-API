@@ -52,6 +52,12 @@ ICO Alert API
    * **`INCLUDEENABLED=no`**
    
       Hides enabled ICOs.
+      
+   * **`incorpLocation=Switzerland`**
+   
+      Returns only ICOs incorporated in the selected country. Currently use %20 for spaces. Example:
+      incorpLocation=United%20Kingdom
+      incorpLocation=United%20States%20of%20America
    
    * **`PAGE=[int]`**
    
