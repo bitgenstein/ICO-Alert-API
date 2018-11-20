@@ -66,6 +66,10 @@ ICO Alert API
    * **`ICOSPERPAGE=[int]`**
    
       The default ICOs per page limit is 50, unless your key has special permissions. Use this to manually limit the number of ICOs per page to a number that is less than your key's maximum.
+      
+   * **`CONTACTEMAILS=true`**
+   
+      Returns only ICOs with contact email addresses available.
    
    * **`ICO=[int]`**
    
